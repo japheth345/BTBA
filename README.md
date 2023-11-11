@@ -1,0 +1,1 @@
+This is an android app developed using java and firebase authentication,realtime database and storage.This app enables passengers to book bus tickets and pay through MPESA.It has both the admin and customer interfaces.The admin adds,deletes and edits buses and views bookings.The customers books tickets and generates a receipts to pdf .
