@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewBookings"
+    >
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:text="Fetching Available records"
+            android:id="@+id/textView"/>
+
+        <ProgressBar android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/myDataLoaderProgressBar"
+            android:indeterminateBehavior="cycle"
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_below="@+id/textView"/>
+
+        <Button
+            android:id="@+id/su"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:paddingTop="0dp"
+            android:text="Add Booking Slots"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/su"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">EnaCoach Booking app</string>
+    <string name="app_name3">EnaCoach Booking app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="Buses">
+        <item>Shuttle Class A</item>
+        <item>Shuttle Class B</item>
+        <item>Shuttle Class C</item>
+        <item>Shuttle Class D</item>
+        <item>Shuttle Class F</item>
+
+    </string-array>
+
+    <string-array name="Routes">
+        <item>Kisii-Nairobi</item>
+        <item>Kisii-Mombasa</item>
+        <item>Kisii-Kericho</item>
+        <item>Nairobi-Kisii</item>
+        <item>Mombasa-Kisii</item>
+        <item>Kericho-Kisii</item>
+    </string-array>
+
+    <string-array name="Time">
+        <item>7:00am</item>
+        <item>10.00 am</item>
+        <item>6:00 pm</item>
+        <item>10:00pm</item>
+
+
+    </string-array>
+    <string name="bookings">Bookings</string>
+    <string name="receipts">Receipts</string>
+    <string name="creatingReceipt">Creating Receipt....\t Please wait</string>
+    <string name="percent">0%</string>
+
+    <string name="hint">Type here...</string>
+    <string name="save">Save</string>
+    <string name="view">View</string>
+    <string name="enter_text">Enter Text:</string>
+    <string name="send">Send</string>
+    <string name="delete">Delete</string>
+    <string name="file_name">File Name</string>
+    <string name="edit">Edit</string>
+    <string name="search_hint">Search by name or date</string>
+    <string name="delete_icon">DELETE ICON</string>
+    <string name="pdf_icon">PDF ICON</string>
+    <string name="search">Search</string>
+    <string name="document_icon">DOCUMENT ICON</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="finish_editing">Finish Editing</string>
+    <string name="file_error_message">Error: Unreachable File</string>
+</resources>
